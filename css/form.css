@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html{
+  background-size: cover;
+}
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div {
+	padding-left:35px;
+	padding-right:35px;
+	float: left;
+	left: 50%;
+	position: absolute;
+	margin-left: -260px;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 11px 11px 0px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+  	color: #3498db;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-size: 19px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#email{
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+.left-inner-addon {
+    position: relative;
+    padding-left: 28%;
+}
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 16px 12px;
+    pointer-events: none;
+}
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+        .left-inner-addon {
+                padding-left: 3%;
+        }
+}
